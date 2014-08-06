@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "484207F2199038670067B5E9"
                BuildableName = "Test Application.app"
-               BlueprintName = "Test Application"
-               ReferencedContainer = "container:Test Application.xcodeproj">
+               BlueprintName = "DNApp"
+               ReferencedContainer = "container:DNApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "48420816199038680067B5E9"
                BuildableName = "Test ApplicationTests.xctest"
-               BlueprintName = "Test ApplicationTests"
-               ReferencedContainer = "container:Test Application.xcodeproj">
+               BlueprintName = "DNAppTests"
+               ReferencedContainer = "container:DNApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "484207F2199038670067B5E9"
             BuildableName = "Test Application.app"
-            BlueprintName = "Test Application"
-            ReferencedContainer = "container:Test Application.xcodeproj">
+            BlueprintName = "DNApp"
+            ReferencedContainer = "container:DNApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "484207F2199038670067B5E9"
             BuildableName = "Test Application.app"
-            BlueprintName = "Test Application"
-            ReferencedContainer = "container:Test Application.xcodeproj">
+            BlueprintName = "DNApp"
+            ReferencedContainer = "container:DNApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "484207F2199038670067B5E9"
             BuildableName = "Test Application.app"
-            BlueprintName = "Test Application"
-            ReferencedContainer = "container:Test Application.xcodeproj">
+            BlueprintName = "DNApp"
+            ReferencedContainer = "container:DNApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

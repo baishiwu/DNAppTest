@@ -36,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		484207F3199038670067B5E9 /* Test Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484207F3199038670067B5E9 /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484207F6199038670067B5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		484207F8199038670067B5E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		484207FA199038670067B5E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		484207FE199038670067B5E9 /* Test Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Application-Info.plist"; sourceTree = "<group>"; };
+		484207FE199038670067B5E9 /* DNApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNApp-Info.plist"; sourceTree = "<group>"; };
 		48420800199038670067B5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48420802199038670067B5E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48420804199038670067B5E9 /* Test Application-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test Application-Prefix.pch"; sourceTree = "<group>"; };
+		48420804199038670067B5E9 /* DNApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNApp-Prefix.pch"; sourceTree = "<group>"; };
 		48420805199038670067B5E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48420806199038670067B5E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48420809199038680067B5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		4842080E199038680067B5E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4842080F199038680067B5E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48420811199038680067B5E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48420817199038680067B5E9 /* Test ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48420817199038680067B5E9 /* DNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48420818199038680067B5E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		48420820199038680067B5E9 /* Test ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		48420820199038680067B5E9 /* DNAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNAppTests-Info.plist"; sourceTree = "<group>"; };
 		48420822199038680067B5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48420824199038680067B5E9 /* Test_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_ApplicationTests.m; sourceTree = "<group>"; };
 		48931D851992D354004A856A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		484207F4199038670067B5E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				484207F3199038670067B5E9 /* Test Application.app */,
-				48420817199038680067B5E9 /* Test ApplicationTests.xctest */,
+				484207F3199038670067B5E9 /* DNApp.app */,
+				48420817199038680067B5E9 /* DNAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,10 +134,10 @@
 		484207FD199038670067B5E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				484207FE199038670067B5E9 /* Test Application-Info.plist */,
+				484207FE199038670067B5E9 /* DNApp-Info.plist */,
 				484207FF199038670067B5E9 /* InfoPlist.strings */,
 				48420802199038670067B5E9 /* main.m */,
-				48420804199038670067B5E9 /* Test Application-Prefix.pch */,
+				48420804199038670067B5E9 /* DNApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 		4842081F199038680067B5E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48420820199038680067B5E9 /* Test ApplicationTests-Info.plist */,
+				48420820199038680067B5E9 /* DNAppTests-Info.plist */,
 				48420821199038680067B5E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		484207F2199038670067B5E9 /* Test Application */ = {
+		484207F2199038670067B5E9 /* DNApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48420828199038680067B5E9 /* Build configuration list for PBXNativeTarget "Test Application" */;
+			buildConfigurationList = 48420828199038680067B5E9 /* Build configuration list for PBXNativeTarget "DNApp" */;
 			buildPhases = (
 				484207EF199038670067B5E9 /* Sources */,
 				484207F0199038670067B5E9 /* Frameworks */,
@@ -175,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = "Test Application";
+			name = DNApp;
 			productName = "Test Application";
-			productReference = 484207F3199038670067B5E9 /* Test Application.app */;
+			productReference = 484207F3199038670067B5E9 /* DNApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48420816199038680067B5E9 /* Test ApplicationTests */ = {
+		48420816199038680067B5E9 /* DNAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4842082B199038680067B5E9 /* Build configuration list for PBXNativeTarget "Test ApplicationTests" */;
+			buildConfigurationList = 4842082B199038680067B5E9 /* Build configuration list for PBXNativeTarget "DNAppTests" */;
 			buildPhases = (
 				48420813199038680067B5E9 /* Sources */,
 				48420814199038680067B5E9 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				4842081D199038680067B5E9 /* PBXTargetDependency */,
 			);
-			name = "Test ApplicationTests";
+			name = DNAppTests;
 			productName = "Test ApplicationTests";
-			productReference = 48420817199038680067B5E9 /* Test ApplicationTests.xctest */;
+			productReference = 48420817199038680067B5E9 /* DNAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 484207EE199038670067B5E9 /* Build configuration list for PBXProject "Test Application" */;
+			buildConfigurationList = 484207EE199038670067B5E9 /* Build configuration list for PBXProject "DNApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				484207F2199038670067B5E9 /* Test Application */,
-				48420816199038680067B5E9 /* Test ApplicationTests */,
+				484207F2199038670067B5E9 /* DNApp */,
+				48420816199038680067B5E9 /* DNAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +278,7 @@
 /* Begin PBXTargetDependency section */
 		4842081D199038680067B5E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 484207F2199038670067B5E9 /* Test Application */;
+			target = 484207F2199038670067B5E9 /* DNApp */;
 			targetProxy = 4842081C199038680067B5E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,9 +397,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test Application/Test Application-Prefix.pch";
-				INFOPLIST_FILE = "Test Application/Test Application-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Test Application/DNApp-Prefix.pch";
+				INFOPLIST_FILE = "Test Application/DNApp-Info.plist";
+				PRODUCT_NAME = DNApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,9 +410,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test Application/Test Application-Prefix.pch";
-				INFOPLIST_FILE = "Test Application/Test Application-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Test Application/DNApp-Prefix.pch";
+				INFOPLIST_FILE = "Test Application/DNApp-Info.plist";
+				PRODUCT_NAME = DNApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,8 +432,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Test ApplicationTests/Test ApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Test ApplicationTests/DNAppTests-Info.plist";
+				PRODUCT_NAME = DNAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,8 +450,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test Application/Test Application-Prefix.pch";
-				INFOPLIST_FILE = "Test ApplicationTests/Test ApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Test ApplicationTests/DNAppTests-Info.plist";
+				PRODUCT_NAME = DNAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		484207EE199038670067B5E9 /* Build configuration list for PBXProject "Test Application" */ = {
+		484207EE199038670067B5E9 /* Build configuration list for PBXProject "DNApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48420826199038680067B5E9 /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48420828199038680067B5E9 /* Build configuration list for PBXNativeTarget "Test Application" */ = {
+		48420828199038680067B5E9 /* Build configuration list for PBXNativeTarget "DNApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48420829199038680067B5E9 /* Debug */,
@@ -478,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4842082B199038680067B5E9 /* Build configuration list for PBXNativeTarget "Test ApplicationTests" */ = {
+		4842082B199038680067B5E9 /* Build configuration list for PBXNativeTarget "DNAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4842082C199038680067B5E9 /* Debug */,
