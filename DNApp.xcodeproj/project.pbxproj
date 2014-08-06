@@ -22,6 +22,7 @@
 		4842081B199038680067B5E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484207FA199038670067B5E9 /* UIKit.framework */; };
 		48420823199038680067B5E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48420821199038680067B5E9 /* InfoPlist.strings */; };
 		48420825199038680067B5E9 /* Test_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48420824199038680067B5E9 /* Test_ApplicationTests.m */; };
+		48931D871992D354004A856A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48931D861992D354004A856A /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		48420820199038680067B5E9 /* Test ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test ApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		48420822199038680067B5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48420824199038680067B5E9 /* Test_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_ApplicationTests.m; sourceTree = "<group>"; };
+		48931D851992D354004A856A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		48931D861992D354004A856A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				48420805199038670067B5E9 /* AppDelegate.h */,
 				48420806199038670067B5E9 /* AppDelegate.m */,
+				48931D851992D354004A856A /* HomeViewController.h */,
+				48931D861992D354004A856A /* HomeViewController.m */,
 				48420808199038680067B5E9 /* Main_iPhone.storyboard */,
 				4842080B199038680067B5E9 /* Main_iPad.storyboard */,
 				4842080E199038680067B5E9 /* ViewController.h */,
@@ -256,6 +261,7 @@
 				48420810199038680067B5E9 /* ViewController.m in Sources */,
 				48420807199038670067B5E9 /* AppDelegate.m in Sources */,
 				48420803199038670067B5E9 /* main.m in Sources */,
+				48931D871992D354004A856A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +476,7 @@
 				4842082A199038680067B5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4842082B199038680067B5E9 /* Build configuration list for PBXNativeTarget "Test ApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				4842082D199038680067B5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
